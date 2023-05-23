@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(ApiRestResource.PATH_ROOT + "/user")
 public class UserResource {
 
-    private UserServicePort userService;
+    private final UserServicePort userService;
 
     @Autowired
     public UserResource(UserServicePort userService) {

@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 @Repository
 public class JpaDbUserRepository implements UserRepository {
 
-    private JpaUserRepository jpaUserRepository;
+    private final JpaUserRepository jpaUserRepository;
 
 
     @Autowired

@@ -1,7 +1,5 @@
 package com.aprohenza.spring_boot_hexagonal_architecture.domain;
 
-import javax.persistence.Column;
-
 public class User {
 
     private String id;
