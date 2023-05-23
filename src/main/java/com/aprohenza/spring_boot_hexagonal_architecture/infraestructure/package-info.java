@@ -1,0 +1,1 @@
+package com.aprohenza.spring_boot_hexagonal_architecture.infraestructure;
